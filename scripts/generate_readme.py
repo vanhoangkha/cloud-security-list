@@ -81,11 +81,41 @@ def main():
             lines.append(f"- {link(svc['name'], svc['url'])}")
         lines.append("")
 
-    # Open Source
+    # Open Source (grouped by category)
+    opensource = load("opensource")
     lines.append("# Open Source Projects\n")
-    for p in load("opensource"):
-        lines.append(f"- {link(p['name'], p['url'])}")
-    lines.append("")
+    categories = {}
+    for p in opensource:
+        cat = p.get("category", "other")
+        if cat not in categories:
+            categories[cat] = []
+        categories[cat].append(p)
+    
+    cat_names = {
+        "cspm": "Cloud Security Posture Management",
+        "iac": "Infrastructure as Code Security", 
+        "kubernetes": "Kubernetes Security",
+        "container": "Container Security",
+        "aws": "AWS Security",
+        "azure": "Azure Security",
+        "gcp": "GCP Security",
+        "iam": "IAM Security",
+        "inventory": "Asset Inventory",
+        "runtime": "Runtime Security",
+        "pentest": "Penetration Testing",
+        "governance": "Governance",
+        "vulnerability": "Vulnerability Management",
+        "siem": "SIEM",
+        "forensics": "Forensics",
+        "recon": "Reconnaissance",
+        "training": "Training",
+        "supply-chain": "Supply Chain Security"
+    }
+    for cat in sorted(categories.keys()):
+        lines.append(f"### {cat_names.get(cat, cat.title())}\n")
+        for p in sorted(categories[cat], key=lambda x: x["name"].lower()):
+            lines.append(f"- {link(p['name'], p['url'])}")
+        lines.append("")
 
     # Frameworks & Glossary
     fw = load("frameworks")
@@ -121,6 +151,12 @@ def main():
     lines.append("# Cyber Insurance\n")
     for i in load("cyber-insurance"):
         lines.append(f"- {link(i['name'], i['url'])} | {link('LinkedIn', i['linkedin'])}")
+    lines.append("")
+
+    # Training Labs
+    lines.append("# Training & Practice Labs\n")
+    for t in load("training-labs"):
+        lines.append(f"- {link(t['name'], t['url'])} - {t['description']} ({t['platform']})")
 
     OUT.write_text("\n".join(lines) + "\n")
     print(f"Generated {OUT}")

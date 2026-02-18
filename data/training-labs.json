@@ -1,0 +1,11 @@
+[
+  {"name": "CloudGoat", "url": "https://github.com/RhinoSecurityLabs/cloudgoat", "platform": "aws", "description": "Vulnerable AWS environment for learning"},
+  {"name": "TerraGoat", "url": "https://github.com/bridgecrewio/terragoat", "platform": "multi-cloud", "description": "Vulnerable Terraform configurations"},
+  {"name": "AzureGoat", "url": "https://github.com/ine-labs/AzureGoat", "platform": "azure", "description": "Vulnerable Azure environment"},
+  {"name": "GCPGoat", "url": "https://github.com/ine-labs/GCPGoat", "platform": "gcp", "description": "Vulnerable GCP environment"},
+  {"name": "Kubernetes Goat", "url": "https://github.com/madhuakula/kubernetes-goat", "platform": "kubernetes", "description": "Vulnerable Kubernetes cluster"},
+  {"name": "Serverless Goat", "url": "https://github.com/OWASP/Serverless-Goat", "platform": "aws", "description": "Vulnerable serverless application"},
+  {"name": "Sadcloud", "url": "https://github.com/nccgroup/sadcloud", "platform": "aws", "description": "Vulnerable AWS Terraform"},
+  {"name": "AWS Security Workshops", "url": "https://github.com/aws-samples/aws-security-workshops", "platform": "aws", "description": "Official AWS security labs"},
+  {"name": "HackTricks Cloud", "url": "https://cloud.hacktricks.xyz/", "platform": "multi-cloud", "description": "Cloud pentesting wiki"}
+]

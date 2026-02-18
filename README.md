@@ -204,34 +204,116 @@ Venture-funded companies
 
 # Open Source Projects
 
-- [Altimeter](https://github.com/tableau/altimeter)
+### AWS Security
+
 - [AWS Firewall Factory](https://github.com/globaldatanet/aws-firewall-factory)
-- [BloodHound](https://github.com/BloodHoundAD/BloodHound)
-- [Cartography](https://github.com/lyft/cartography)
-- [Chainloop](https://github.com/chainloop-dev/chainloop)
-- [Checkov](https://github.com/bridgecrewio/checkov)
-- [Cilium](https://github.com/cilium/)
-- [Cloudbeat](https://github.com/elastic/cloudbeat)
-- [Cloudquery](https://github.com/cloudquery/cloudquery)
-- [CloudSploit](https://github.com/aquasecurity/cloudsploit)
-- [DefectDojo](https://github.com/DefectDojo/django-DefectDojo)
-- [Falco](https://github.com/falcosecurity/falco)
-- [Fix Inventory](https://github.com/someengineering/fixinventory)
-- [Gapps](https://github.com/bmarsh9/gapps)
-- [Greenbone OpenVAS Scanner](https://github.com/greenbone/openvas-scanner)
-- [KubeArmor](https://github.com/kubearmor/KubeArmor)
-- [KubeScape](https://github.com/kubescape/kubescape)
-- [Magpie](https://github.com/openraven/magpie)
-- [Prowler](https://github.com/prowler-cloud/prowler)
+- [CloudMapper](https://github.com/duo-labs/cloudmapper)
+- [LambdaGuard](https://github.com/Skyscanner/LambdaGuard)
+- [Pacu](https://github.com/RhinoSecurityLabs/pacu)
 - [S3Scanner](https://github.com/sa7mon/S3Scanner)
-- [Sadcloud](https://github.com/nccgroup/sadcloud)
-- [ScoutSuite](https://github.com/nccgroup/ScoutSuite)
-- [Steampipe](https://github.com/turbot/steampipe)
-- [tfsec](https://github.com/aquasecurity/tfsec)
-- [ThreatMapper](https://github.com/deepfence/threatmapper)
+
+### Azure Security
+
+- [AzureHound](https://github.com/BloodHoundAD/AzureHound)
+- [MicroBurst](https://github.com/NetSPI/MicroBurst)
+- [PowerZure](https://github.com/hausec/PowerZure)
+- [ROADtools](https://github.com/dirkjanm/ROADtools)
+- [Stormspotter](https://github.com/Azure/Stormspotter)
+
+### Container Security
+
+- [Clair](https://github.com/quay/clair)
+- [Grype](https://github.com/anchore/grype)
 - [trivy](https://github.com/aquasecurity/trivy)
-- [Wazuh](https://github.com/wazuh/wazuh)
+
+### Cloud Security Posture Management
+
+- [Cloudbeat](https://github.com/elastic/cloudbeat)
+- [CloudSploit](https://github.com/aquasecurity/cloudsploit)
+- [Prowler](https://github.com/prowler-cloud/prowler)
+- [ScoutSuite](https://github.com/nccgroup/ScoutSuite)
 - [ZeusCloud](https://github.com/Zeus-Labs/ZeusCloud)
+
+### Forensics
+
+- [cloud-forensics-utils](https://github.com/google/cloud-forensics-utils)
+
+### GCP Security
+
+- [Forseti Security](https://github.com/forseti-security/forseti-security)
+- [GCPBucketBrute](https://github.com/RhinoSecurityLabs/GCPBucketBrute)
+
+### Governance
+
+- [Cloud Custodian](https://github.com/cloud-custodian/cloud-custodian)
+- [Gapps](https://github.com/bmarsh9/gapps)
+
+### Infrastructure as Code Security
+
+- [Checkov](https://github.com/bridgecrewio/checkov)
+- [KICS](https://github.com/Checkmarx/kics)
+- [Terrascan](https://github.com/tenable/terrascan)
+- [tfsec](https://github.com/aquasecurity/tfsec)
+
+### IAM Security
+
+- [Cloudsplaining](https://github.com/salesforce/cloudsplaining)
+- [Parliament](https://github.com/duo-labs/parliament)
+- [Policy Sentry](https://github.com/salesforce/policy_sentry)
+
+### Asset Inventory
+
+- [Altimeter](https://github.com/tableau/altimeter)
+- [Cartography](https://github.com/lyft/cartography)
+- [Cloudquery](https://github.com/cloudquery/cloudquery)
+- [Fix Inventory](https://github.com/someengineering/fixinventory)
+- [Magpie](https://github.com/openraven/magpie)
+- [Steampipe](https://github.com/turbot/steampipe)
+
+### Kubernetes Security
+
+- [Cilium](https://github.com/cilium/)
+- [kdigger](https://github.com/quarkslab/kdigger)
+- [kube-bench](https://github.com/aquasecurity/kube-bench)
+- [kube-hunter](https://github.com/aquasecurity/kube-hunter)
+- [KubeArmor](https://github.com/kubearmor/KubeArmor)
+- [kubeletctl](https://github.com/cyberark/kubeletctl)
+- [KubeScape](https://github.com/kubescape/kubescape)
+- [mkit](https://github.com/darkbitio/mkit)
+- [peirates](https://github.com/inguardians/peirates)
+- [Polaris](https://github.com/FairwindsOps/polaris)
+- [Popeye](https://github.com/derailed/popeye)
+
+### Penetration Testing
+
+- [BloodHound](https://github.com/BloodHoundAD/BloodHound)
+
+### Reconnaissance
+
+- [cloud_enum](https://github.com/initstring/cloud_enum)
+
+### Runtime Security
+
+- [Falco](https://github.com/falcosecurity/falco)
+- [ThreatMapper](https://github.com/deepfence/threatmapper)
+
+### SIEM
+
+- [Wazuh](https://github.com/wazuh/wazuh)
+
+### Supply Chain Security
+
+- [Chainloop](https://github.com/chainloop-dev/chainloop)
+
+### Training
+
+- [CloudGoat](https://github.com/RhinoSecurityLabs/cloudgoat)
+- [Sadcloud](https://github.com/nccgroup/sadcloud)
+
+### Vulnerability Management
+
+- [DefectDojo](https://github.com/DefectDojo/django-DefectDojo)
+- [Greenbone OpenVAS Scanner](https://github.com/greenbone/openvas-scanner)
 
 # Security Categories / Glossary
 
@@ -338,3 +420,15 @@ Venture-funded companies
 # Cyber Insurance
 
 - [Anzen](https://www.anzen.com/) | [LinkedIn](https://www.linkedin.com/company/goanzen/)
+
+# Training & Practice Labs
+
+- [CloudGoat](https://github.com/RhinoSecurityLabs/cloudgoat) - Vulnerable AWS environment for learning (aws)
+- [TerraGoat](https://github.com/bridgecrewio/terragoat) - Vulnerable Terraform configurations (multi-cloud)
+- [AzureGoat](https://github.com/ine-labs/AzureGoat) - Vulnerable Azure environment (azure)
+- [GCPGoat](https://github.com/ine-labs/GCPGoat) - Vulnerable GCP environment (gcp)
+- [Kubernetes Goat](https://github.com/madhuakula/kubernetes-goat) - Vulnerable Kubernetes cluster (kubernetes)
+- [Serverless Goat](https://github.com/OWASP/Serverless-Goat) - Vulnerable serverless application (aws)
+- [Sadcloud](https://github.com/nccgroup/sadcloud) - Vulnerable AWS Terraform (aws)
+- [AWS Security Workshops](https://github.com/aws-samples/aws-security-workshops) - Official AWS security labs (aws)
+- [HackTricks Cloud](https://cloud.hacktricks.xyz/) - Cloud pentesting wiki (multi-cloud)

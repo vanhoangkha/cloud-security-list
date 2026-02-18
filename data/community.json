@@ -1,0 +1,52 @@
+{
+  "newsletters": [
+    {"name": "CloudSecList", "url": "https://cloudseclist.com", "author": "Marco Lancini", "linkedin": "https://www.linkedin.com/in/marcolancini/"},
+    {"name": "Frankly Speaking", "url": "https://franklyspeaking.substack.com", "author": "Frank Wang", "linkedin": "https://www.linkedin.com/in/frankw1/"},
+    {"name": "Securing the Cloud", "url": "https://www.linkedin.com/newsletters/securing-the-cloud-7085768785009274880/", "author": "Brandon Carroll", "linkedin": "https://www.linkedin.com/in/brandoncarroll/"},
+    {"name": "tl;dr sec", "url": "https://tldrsec.com", "author": "Clint Gibler", "linkedin": "https://www.linkedin.com/in/clintgibler/"},
+    {"name": "Venture in Security", "url": "https://ventureinsecurity.net", "author": "Ross Haleliuk", "linkedin": "https://www.linkedin.com/in/rosshaleliuk/"}
+  ],
+  "podcasts": [
+    {"name": "Brakeing Down Security", "url": "https://brakeingsecurity.com"},
+    {"name": "CISO Tradecraft", "url": "https://cisotradecraft.com"},
+    {"name": "CyberWire Daily", "url": "https://thecyberwire.com/podcasts/daily-podcast"},
+    {"name": "Darknet Diaries", "url": "https://darknetdiaries.com"},
+    {"name": "Google Cloud Security Podcast", "url": "https://cloud.withgoogle.com/cloudsecurity/podcast/"},
+    {"name": "Hacking Humans", "url": "https://thecyberwire.com/podcasts/hacking-humans"},
+    {"name": "Malicious Life", "url": "https://malicious.life/"},
+    {"name": "Privacy, Security, & OSINT Show", "url": "https://inteltechniques.com/podcast.html"},
+    {"name": "Risky Business", "url": "https://risky.biz/"},
+    {"name": "Security Now", "url": "https://twit.tv/shows/security-now"},
+    {"name": "Smashing Security", "url": "https://smashingsecurity.com"},
+    {"name": "Social-Engineer Podcast", "url": "https://www.social-engineer.org/category/podcast/"},
+    {"name": "Unsupervised Learning", "url": "https://omny.fm/shows/unsupervised-learning"}
+  ],
+  "conferences": {
+    "community": [
+      {"name": "Chaos Communication Congress", "url": "https://events.ccc.de/en/congress/"},
+      {"name": "DEF CON", "url": "https://www.defcon.org/"},
+      {"name": "GrrCon", "url": "https://grrcon.com/"},
+      {"name": "Hackers on Planet Earth (HOPE)", "url": "https://hope.net/"},
+      {"name": "HushCon", "url": "https://hushcon.com/"},
+      {"name": "Nullcon", "url": "https://nullcon.net/"},
+      {"name": "OWASP", "url": "https://owasp.org/"},
+      {"name": "Security BSides", "url": "https://bsides.org/"},
+      {"name": "ShmooCon", "url": "https://www.shmoocon.org/"},
+      {"name": "THOTCON", "url": "https://thotcon.org/"},
+      {"name": "ToorCon", "url": "https://toorcon.net/"},
+      {"name": "Wild West Hackin' Fest", "url": "https://www.wildwesthackinfest.com/"}
+    ],
+    "industry": [
+      {"name": "AWS re:Invent", "url": "https://reinvent.awsevents.com/"},
+      {"name": "Billington Cybersecurity Summit", "url": "https://billingtoncybersummit.com/"},
+      {"name": "Black Hat", "url": "https://www.blackhat.com/"},
+      {"name": "Cyber Security & Cloud Expo", "url": "https://www.cybersecuritycloudexpo.com/"},
+      {"name": "Cybersec Europe", "url": "https://www.cyberseceurope.com/"},
+      {"name": "fwd:cloudsec", "url": "https://fwdcloudsec.org"},
+      {"name": "Gartner Security & Risk Management Summit", "url": "https://www.gartner.com/en/conferences/hub/security-conferences"},
+      {"name": "Infosecurity Europe", "url": "https://www.infosecurityeurope.com/"},
+      {"name": "it-sa", "url": "https://www.itsa365.de/en/it-sa-expo-congress/exhibition-info"},
+      {"name": "RSA Conference", "url": "https://www.rsaconference.com/"}
+    ]
+  }
+}

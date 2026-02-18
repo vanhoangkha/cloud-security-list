@@ -1,0 +1,13 @@
+[
+  {"name": "Cloud Security Alliance Research", "url": "https://cloudsecurityalliance.org/research/"},
+  {"name": "Datadog Security Labs", "url": "https://securitylabs.datadoghq.com/"},
+  {"name": "Elastic Security Labs", "url": "https://www.elastic.co/security-labs"},
+  {"name": "Google Project Zero", "url": "https://googleprojectzero.blogspot.com/"},
+  {"name": "Microsoft Security Response Center", "url": "https://www.microsoft.com/en-us/msrc"},
+  {"name": "Orca Research Pod", "url": "https://orca.security/about/orca-research-pod/"},
+  {"name": "Rapid7 Research", "url": "https://www.rapid7.com/research/"},
+  {"name": "Sysdig Threat Research", "url": "https://sysdig.com/threat-research/"},
+  {"name": "Team Nautilus by Aqua Security", "url": "https://www.aquasec.com/research/"},
+  {"name": "Unit 42 by Palo Alto Networks", "url": "https://unit42.paloaltonetworks.com/"},
+  {"name": "Wiz Cloud Threat Landscape", "url": "https://threats.wiz.io/"}
+]

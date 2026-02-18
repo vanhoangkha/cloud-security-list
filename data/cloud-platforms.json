@@ -1,0 +1,38 @@
+{
+  "aws": {
+    "overview": "https://aws.amazon.com/security/",
+    "shared_responsibility": "https://aws.amazon.com/compliance/shared-responsibility-model/",
+    "services": [
+      {"name": "Amazon Detective", "url": "https://aws.amazon.com/detective"},
+      {"name": "Amazon GuardDuty", "url": "https://aws.amazon.com/guardduty/"},
+      {"name": "Amazon Security Lake", "url": "https://aws.amazon.com/security-lake"},
+      {"name": "AWS Artifact", "url": "https://aws.amazon.com/artifact/"},
+      {"name": "AWS Audit Manager", "url": "https://aws.amazon.com/audit-manager/"},
+      {"name": "AWS Config", "url": "https://aws.amazon.com/config"},
+      {"name": "AWS Security Hub", "url": "https://aws.amazon.com/security-hub/"},
+      {"name": "AWS Trusted Advisor", "url": "https://aws.amazon.com/premiumsupport/technology/trusted-advisor/"}
+    ]
+  },
+  "gcp": {
+    "overview": "https://cloud.google.com/security",
+    "shared_responsibility": "https://cloud.google.com/architecture/framework/security/shared-responsibility-shared-fate",
+    "services": [
+      {"name": "Chronicle Security Operations", "url": "https://chronicle.security"},
+      {"name": "Chronicle SOAR", "url": "https://cloud.google.com/chronicle/docs/soar/overview-and-introduction/soar-overview"},
+      {"name": "Chronicle SIEM", "url": "https://cloud.google.com/chronicle/docs/overview"}
+    ]
+  },
+  "azure": {
+    "overview": "https://azure.microsoft.com/en-us/explore/security",
+    "shared_responsibility": "https://learn.microsoft.com/en-us/azure/security/fundamentals/shared-responsibility",
+    "services": [
+      {"name": "Azure Policy", "url": "https://azure.microsoft.com/en-us/products/azure-policy/"},
+      {"name": "Microsoft Compliance", "url": "https://learn.microsoft.com/en-us/compliance/"},
+      {"name": "Microsoft Defender for Cloud", "url": "https://azure.microsoft.com/en-us/products/defender-for-cloud/"},
+      {"name": "Microsoft Sentinel", "url": "https://www.microsoft.com/de-de/security/business/siem-and-xdr/microsoft-sentinel"}
+    ]
+  },
+  "digitalocean": {
+    "shared_responsibility": "https://www.digitalocean.com/security/shared-responsibility-model"
+  }
+}

@@ -1,5 +1,9 @@
 # Cloud Security List
 
+## Architecture
+
+![Architecture](docs/architecture.png)
+
 [![Validate Links](https://github.com/someengineering/cloud-security-list/actions/workflows/validate.yml/badge.svg)](https://github.com/someengineering/cloud-security-list/actions/workflows/validate.yml)
 [![License: CC0-1.0](https://img.shields.io/badge/License-CC0_1.0-lightgrey.svg)](http://creativecommons.org/publicdomain/zero/1.0/)
 
